@@ -11,6 +11,7 @@
 		<meta charset="UTF-8">
 		<title>네이버 : 로그인</title>
 		<link href="${path}/resources/css/login.css" rel="stylesheet"/> 
+		<link rel="shortcut icon" type="image/x-icon" href="https://naver.com/favicon.ico?1">
 	</head>
 	<body>
 		<header>
@@ -25,13 +26,13 @@
 		
 		<div class="navbar_wrap">
 			<div class="nav_ex">
-				<a href="webtoon_login">ID 로그인</a>
+				<a href="./IDlogin.jsp">ID 로그인</a>
 			</div>
 			<div class="nav">
-				<a href="webtoon_numlogin">일회용 번호</a>
+				<a href="./Numlogin.jsp">일회용 번호</a>
 			</div>
 			<div class="nav">
-				<a href="webtoon_qrlogin">QR코드</a>
+				<a href="./QRlogin.jsp">QR코드</a>
 			</div>
 		</div>
 		
