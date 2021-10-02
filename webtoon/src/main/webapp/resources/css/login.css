@@ -1,0 +1,327 @@
+@charset "UTF-8";
+
+/* 로고 부분 */
+#para1 {
+	text-align : center;
+	color : #24D16D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 400%;	
+	font-weight: 1000;
+}
+
+/* a 태그 밑줄 없애기 */
+a {
+	text-decoration: none;
+}
+
+/* input 안 글씨 크기*/
+::placeholder {
+	font-size: 16px;
+}
+
+/* 글씨 선택 부분 */
+.select-lang {
+	position: right;
+	text-align: right;
+    padding-right: 10px;
+}
+
+/* 아이콘 부분 */
+#user {
+    position: absolute;
+    left: 40px;
+    top: 52px;
+    color: gray;
+}
+
+#lock {
+	position: absolute;
+    left: 40px;
+    top: 120px;
+    color: gray;
+}
+
+#lock2 {
+	position: absolute;
+    top: 310px;
+    color: gray;
+}
+
+/* 메뉴바 부분 */
+.navbar_wrap {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px; 
+	
+	height: 20px;
+	width : 500px;
+	margin-right: auto;
+	margin-left: auto;
+}	
+
+.nav {
+	text-align: center;
+	border: 2px solid #D0D0D0;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 20px;
+}
+
+.nav_ex	{
+	text-align: center;
+	border: 2px solid #D0D0D0;
+	border-bottom: none;
+	border-radius: 5px 5px 0px 0px;
+	font-size: 15px;
+	padding: 20px;
+}
+
+/* 로그인 유지, ip 보안 부분 */
+.under-login{
+    height: 50px;
+    margin: 10px 10px 35px 10px;
+}
+
+.stay_login {
+	margin-left: 18px;
+    float: left;
+}
+
+.sec_ip {
+	margin-left: 248px;
+}
+
+/* ID 로그인 부분 */
+.container {
+	border: 2px solid #D0D0D0;
+	border-top: none;
+	border-radius: 0px 0px 5px 5px;
+	width: 495.5px;
+	height: 310px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.ob {
+	height: 5px;
+}
+
+.inputDiv {
+    position: relative;
+}
+
+.id_wrap {
+	border: 2px solid #D0D0D0;
+	border-bottom: 1px solid #D0D0D0;
+	border-radius: 5px 5px 0px 0px;
+    outline: none;
+    width: 400px;
+    padding: 20px;
+    margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 30px;
+}
+
+.pw_wrap {
+	border: 2px solid #D0D0D0;
+	border-top: 1px solid #D0D0D0;
+	border-radius: 0px 0px 5px 5px;
+    outline: none;
+    width: 400px;
+    padding: 20px;
+    margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+}
+
+.login-id {
+	margin-left: 30px;
+	padding: 3px;
+	border: none;
+    outline:none;
+    width:90%;
+}
+
+.login-pw {
+	margin-left: 30px;
+	padding: 3px;
+	border: none;
+    outline:none;
+    width:90%;
+}
+
+/* 일회용 번호 로그인 부분 */
+.container_2 {
+	border: 2px solid #D0D0D0;
+	border-top: none;
+	border-radius: 0px 0px 5px 5px;
+	width: 495.5px;
+	height: 450px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.lock_box {
+	display: flex;
+	justify-content: center;
+	width: 495.5px;
+	height: 135px
+}
+
+.numpw-wrap {
+	margin: 20px 0px 45px 0px;
+}
+
+.num_cnt {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.num_cnt2 {
+	text-align: center;
+}
+
+#num {
+	color: #03c75a;
+}
+
+.num_wrap {
+	width: 425px;
+	margin: 30px auto 15px auto;
+    padding: 10px;
+    border: solid 2px #dadada;
+    border-radius: 5px;
+    background: #fff;
+}
+
+
+.login-num-pw {
+	margin-top: 10px;
+	padding: 5px;
+	border: none;
+    outline:none;
+    width:100%;
+}
+
+.login-num-pw:focus {
+	color: #03c75a;
+}
+
+/* QR 로그인 부분 */
+.container_3 {
+	border: 2px solid #D0D0D0;
+	border-top: none;
+	border-radius: 0px 0px 5px 5px;
+	width: 495.5px;
+	height: 500px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.qr_login_wrap {
+	margin: 20px auto 45px auto;
+	text-align: center;
+}
+
+.qr_cnt {
+	margin: 25px auto 0px auto;
+}
+
+.qr_cnt2 {
+	margin: 5px auto 0px auto;
+}
+
+
+#bold {
+	font-weight: bold;
+}
+
+.QR {
+	margin: 0px auto 0px auto;
+	height: 150px;
+}
+
+.limit_time {
+	height: 25px;
+}
+
+#time {
+	font-weight: 550;
+}
+
+
+/* 로그인 버튼 부분 */
+.login_btn_box {
+	width: 455px;
+	height: 52px;
+    line-height: 55px;
+    margin: 25px auto 20px auto;
+    border: solid 1px rgba(0,0,0,.1);
+    border-radius: 5px;
+    background-color: #03c75a;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login_btn {
+	font-size: 20px;
+	font-weight: bold;
+	width: 100%;
+  	color: white;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+/* 찾기, 회원가입 부분 */
+.find-signup-wrap{
+	text-align: center;
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.find_pw{
+	text-align: center;
+	color: #D0D0D0;
+    margin: 2px;
+    padding: 3px;
+    font-size: 14px;
+    border-right: 2px solid #D0D0D0;
+}
+
+.find_id{
+	text-align: center;
+	color: #D0D0D0;
+    margin: 2px;
+    padding: 3px;
+    font-size: 14px;
+    border-right: 2px solid #D0D0D0;
+}
+
+.sign_up{
+	text-align: center;
+	color: #D0D0D0;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.find-signup-wrap a{
+    color: rgb(150, 150, 150);
+}
+
+/* 하단 부분 */
+.image_box {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image{
+	border: 1px solid #D0D0D0;
+	border-radius: 5px;
+}
