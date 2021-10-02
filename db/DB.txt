@@ -1,0 +1,12 @@
+CREATE DATABASES WTPJDB;
+
+CREATE TABLES WT {
+	wtID INT,
+	wtTitle VARCHAR (20),
+	wtArtist VARCHAR (10),
+	wtIntro VARCHAR (256),
+	wtRating FLOAT,
+	wtDate INT(9),
+	PRIMARY KEY (wtID)
+};	
+
