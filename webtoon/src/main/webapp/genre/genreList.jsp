@@ -29,7 +29,7 @@
 		%>
 		
 		<header>
-			<h3>메뉴바 자리</h3>
+			<h3>메뉴바 자리</h3> 
 		</header>
 		
 		<div class="container">

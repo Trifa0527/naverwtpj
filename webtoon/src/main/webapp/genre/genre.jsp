@@ -42,7 +42,7 @@
 					<div class="nav"><a href="genreList.jsp?genre=sports">스포츠</a></div>
 				</div>
 				
-				<div class="gr_cnt_box">
+				<div class="gr_cnt_box"> 
 					<div class="gr_cnt">에피소드 웹툰</div>
 					<div class="gr_cnt2">총 183</div>
 					<div class="gr_cnt3_ex">인기순</div>
