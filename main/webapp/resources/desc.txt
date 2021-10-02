@@ -1,0 +1,32 @@
+DB값
+
+작품 ID값 (식별 목적)
+제목
+작가
+줄거리
+날짜
+평점
+특징 (도전만화, 요일, 장르 등)
+이미지 파일 위치
+
+모든 웹툰 링크는 작품 ID와 요일 파라미터를 이용함.
+ex) https://comic.naver.com/webtoon/list?titleId=773459&weekday=tue
+				   -----------------------------------
+작품 아이디가 1234이고 요일은 일요일이라면 파라미터는
+?titleId=1234&weekday=sun이 됩니다.
+
+만들어야 하는 함수로는 데이터 불러오기, 작품 정렬함수가 있습니다.
+
+기본적으로 파일의 이름은 네이버 만화 링크 그대로로 합니다.
+ex) 요일 전체 만화 : https://comic.naver.com/webtoon/weekday
+				                     ----------  <-여기가 파일 이름
+
+이미지 파일 경로는 resources/img/(작품 ID값)/숫자 이름.jpg(확장자 통일. F2키 이름바꾸기로 바꾸면 됨.)
+
+프로젝트 인코딩은 모두 UTF-8로 통일 https://gangzzang.tistory.com/entry/%EC%9D%B4%ED%81%B4%EB%A6%BD%EC%8A%A4-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-UTF8-%EC%9D%B8%EC%BD%94%EB%94%A9-%EC%84%A4%EC%A0%95
+
+
+파일구조
+
+src/main/webapp/"jsp 파일, 폴더 위치"
+src/main/resources/"이미지, css 폴더 위치"
