@@ -1,4 +1,4 @@
-package db;
+package dbdao;
 
 import java.sql.DriverManager;
 import java.sql.Connection;
@@ -74,6 +74,23 @@ public class DBDAO {
 		return null;
 	}
 	
+	public int getDate(int wtIDpa) {
+		String SQL = "SELECT WTDATE FROM WT WHERE wtID = ?";
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setInt(1, wtIDpa);
+			rs = pstmt.executeQuery();
+			DB db = new DB();
+			
+			db.setWtDate(rs.getInt(1));
+			int date = db.getWtAge();
+			return date;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return -1;
+	}
+	
 	public float getRating(int wtIDpa) {
 		String SQL = "SELECT WTRATING FROM WT WHERE wtID = ?";
 		try {
@@ -88,7 +105,7 @@ public class DBDAO {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return (Float) null;
+		return (float) -0.0;
 	}
 	
 	public String getJenre(int wtIDpa) {
@@ -125,7 +142,7 @@ public class DBDAO {
 		return null;
 	}
 	
-	public int getIntro(int wtIDpa) {
+	public int getAge(int wtIDpa) {
 		String SQL = "SELECT WTAGE FROM WT WHERE wtID = ?";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
@@ -134,12 +151,12 @@ public class DBDAO {
 			DB db = new DB();
 			
 			db.setWtAge(rs.getInt(1));
-			String age = db.getWtAge();
+			int age = db.getWtAge();
 			return age;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return null;
+		return -1;
 	}
 }
 

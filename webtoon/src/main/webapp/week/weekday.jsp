@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="db.*" %>
+<%@ page import="dbdao.*" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,11 +10,11 @@
 <title>네이버 만화 > 웹툰 > 장르별 웹툰</title>
 </head>
 <body>
-	<%DB dto = new DB(); %>
-	<%DBDAO dao = new DBDAO(); %>
+	<% DB dto = new DB(); %>
+	<% DBDAO dao = new DBDAO(); %>
 	<div id="nvar">
 		<ul  class="ctetalit cteta"	>
-			<li class="ctetalit ">
+			<li class="ctetalit "> 
 				<a class="ctetalita ctetaon" href="weekday.jsp">요일전체</a>
 			</li> 
 			<li class="ctetalit">
@@ -45,21 +45,21 @@
 		<h3 style="font-size: 17px; font-weight: 500; margin: 2px;">이달의 신규 웹툰</h3>
 			<div id="recmvarcon">
 				<img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA5MTFfNTAg/MDAxNTk5NzgzNTYzNjY0.f-PVbkC_So4KOCb1q_X1U-VbH1JVSGBDQcfPgugvraMg.1QPPwHBh0MvIVmGYSgWopxNLOqm5cGk0dtbVd7OZ9vMg.JPEG.daffodil1234/IMG_5663.JPG?type=w800" width="220" height="110">
-				<b style="font-size: 13px;"><%= dao.getTitle() %></b>
-				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a"><%= dao.getArtist() %></p>
-				<p style="font-size: 11px;"><%= dao.getIntro() %></p>
+				<b style="font-size: 13px;"><%= dao.getTitle(1) %></b>
+				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a"><%= dao.getArtist(1) %></p>
+				<p style="font-size: 11px;"><%= dao.getIntro(1) %></p>
 			</div>
 			<div id="recmvarcon">
 				<img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA5MTFfNTAg/MDAxNTk5NzgzNTYzNjY0.f-PVbkC_So4KOCb1q_X1U-VbH1JVSGBDQcfPgugvraMg.1QPPwHBh0MvIVmGYSgWopxNLOqm5cGk0dtbVd7OZ9vMg.JPEG.daffodil1234/IMG_5663.JPG?type=w800" width="220" height="110">
-				<b style="font-size: 13px;"><%= dao.getTitle() %></b>
-				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a"><%= dao.getArtist() %></p>
-				<p style="font-size: 11px;"><%= dao.getIntro() %></p>
+				<b style="font-size: 13px;"><%= dao.getTitle(1) %></b>
+				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a"><%= dao.getArtist(1) %></p>
+				<p style="font-size: 11px;"><%= dao.getIntro(1) %></p>
 			</div>
 			<div id="recmvarcon">
 				<img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA5MTFfNTAg/MDAxNTk5NzgzNTYzNjY0.f-PVbkC_So4KOCb1q_X1U-VbH1JVSGBDQcfPgugvraMg.1QPPwHBh0MvIVmGYSgWopxNLOqm5cGk0dtbVd7OZ9vMg.JPEG.daffodil1234/IMG_5663.JPG?type=w800" width="220" height="110">
-				<b style="font-size: 13px;"><%= dao.getTitle() %></b>
-				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a"><%= dao.getArtist() %></p>
-				<p style="font-size: 11px;"><%= dao.getIntro() %></p>
+				<b style="font-size: 13px;"><%= dao.getTitle(1) %></b>
+				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a"><%= dao.getArtist(1) %></p>
+				<p style="font-size: 11px;"><%= dao.getIntro(1) %></p>
 			</div>
 			</div>
 		<div id="weekdayallwt">

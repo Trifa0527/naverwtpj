@@ -1,4 +1,4 @@
-package db;
+package dbdao;
 
 public class DB {
 	
@@ -6,7 +6,7 @@ public class DB {
 	private String wtTitle;			/* 제목 */
 	private String wtArtist;		/* 작가 */
 	private String wtIntro;			/* 소개/줄거리 */
-	private String wtDate;			/* 날짜 */
+	private int wtDate;			/* 날짜 */
 	private long wtRating;			/* 평점 */
 	private String wtJenre;			/* 장르 */
 	private int wtAge;				/* 이용가 */
@@ -42,10 +42,10 @@ public class DB {
 	public void setWtIntro(String wtIntro) {
 		this.wtIntro = wtIntro;
 	}
-	public String getWtDate() {
+	public int getWtDate() {
 		return wtDate;
 	}
-	public void setWtDate(String wtDate) {
+	public void setWtDate(int wtDate) {
 		this.wtDate = wtDate;
 	}
 	public String getWtJenre() {
