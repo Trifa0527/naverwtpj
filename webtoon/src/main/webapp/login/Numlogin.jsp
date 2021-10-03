@@ -66,13 +66,13 @@
 		<div>
 			<ul class="find-signup-wrap">
 				<span class="find_pw">
-					<a href="#find_pw">비밀번호 찾기</a>
+					<a href="https://nid.naver.com/user2/help/pwInquiry?lang=ko_KR">비밀번호 찾기</a>
 				</span>
 				<span class="find_id">
-					<a href="#find_id">아이디 찾기</a>
+					<a href="https://nid.naver.com/user2/help/idInquiry?lang=ko_KR">아이디 찾기</a>
 				</span>
 				<span class="sign_up">
-					<a href="#sign_up">회원가입</a>
+					<a href="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR">회원가입</a>
 				</span>
 			</ul>
 		</div>
