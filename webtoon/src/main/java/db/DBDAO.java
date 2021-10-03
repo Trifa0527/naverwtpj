@@ -25,7 +25,7 @@ public class DBDAO {
 	}
 	
 	public String getTitle(int wtIDpa) {
-		String SQL = "SELECT wtTilte FROM WT WHERE wtID = ?";
+		String SQL = "SELECT WTTITLE FROM WT WHERE wtID = ?";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setInt(1, wtIDpa);
@@ -41,7 +41,7 @@ public class DBDAO {
 	}
 	
 	public String getArtist(int wtIDpa) {
-		String SQL = "SELECT wtArtist FROM WT WHERE wtID = ?";
+		String SQL = "SELECT WTARTIST FROM WT WHERE wtID = ?";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setInt(1, wtIDpa);
@@ -49,8 +49,8 @@ public class DBDAO {
 			DB db = new DB();
 			
 			db.setWtArtist(rs.getString(1));
-			String Artist = db.getWtArtist();
-			return Artist;
+			String artist = db.getWtArtist();
+			return artist;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -58,7 +58,7 @@ public class DBDAO {
 	}
 	
 	public String getIntro(int wtIDpa) {
-		String SQL = "SELECT wtIntro FROM WT WHERE wtID = ?";
+		String SQL = "SELECT WTINTRO FROM WT WHERE wtID = ?";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setInt(1, wtIDpa);
@@ -66,8 +66,8 @@ public class DBDAO {
 			DB db = new DB();
 			
 			db.setWtIntro(rs.getString(1));
-			String Intro = db.getWtIntro();
-			return Intro;
+			String intro = db.getWtIntro();
+			return intro;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -75,7 +75,7 @@ public class DBDAO {
 	}
 	
 	public float getRating(int wtIDpa) {
-		String SQL = "SELECT wtRating FROM WT WHERE wtID = ?";
+		String SQL = "SELECT WTRATING FROM WT WHERE wtID = ?";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setInt(1, wtIDpa);
@@ -91,7 +91,56 @@ public class DBDAO {
 		return (Float) null;
 	}
 	
-	public
+	public String getJenre(int wtIDpa) {
+		String SQL = "SELECT WTJENRE FROM WT WHERE wtID = ?";
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setInt(1, wtIDpa);
+			rs = pstmt.executeQuery();
+			DB db = new DB();
+			
+			db.setWtJenre(rs.getString(1));
+			String jenre = db.getWtJenre();
+			return jenre;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public String getWeek(int wtIDpa) {
+		String SQL = "SELECT WTWEEK FROM WT WHERE wtID = ?";
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setInt(1, wtIDpa);
+			rs = pstmt.executeQuery();
+			DB db = new DB();
+			
+			db.setWtWeek(rs.getString(1));
+			String week = db.getWtWeek();
+			return week;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public int getIntro(int wtIDpa) {
+		String SQL = "SELECT WTAGE FROM WT WHERE wtID = ?";
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setInt(1, wtIDpa);
+			rs = pstmt.executeQuery();
+			DB db = new DB();
+			
+			db.setWtAge(rs.getInt(1));
+			String age = db.getWtAge();
+			return age;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
 }
 
 
