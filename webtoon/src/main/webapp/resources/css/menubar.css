@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* a 태그 밑줄 없애기 */
+a {
+	text-decoration: none;
+}
+
+.menu_wrap {
+	width : 1240px;
+	height : 100px;
+	
+	position: relative;
+	margin: 0px auto;
+}
+
+.header {
+	width : 1240px;
+	height : 56px;
+	
+	margin: 0px auto 0px auto;
+}
+
+.menu {
+	width : 1240px;
+	height : 44px;
+	border-top : 1px solid #D0D0D0;
+	border-bottom : 1px solid #D0D0D0;
+	
+	margin: 0px auto 0px auto;
+}
+
+
+/* 앞에 로고 부분 */
+.text_box {
+	float : left;
+}
+
+
+/* 검색창 부분 */
+.search_box {
+	border : 1px solid #D0D0D0;
+	width : 300px;
+	padding : 5px;
+	float : left;
+	margin-left : 50px;
+	margin-top : 10px;
+	margin-right : 100px;
+}
+
+.login_sec {
+	margin-left : 100px;
+}
+
+input {
+  width:290px;
+  height:16px;
+  font-size:15px;
+  border:none
+}
+
