@@ -15,7 +15,6 @@
 	</head>
 	
 	<body>
-		<%DB dto = new DB(); %>
 		<%DBDAO dao = new DBDAO(); %>
 	
 		<header>
@@ -54,7 +53,11 @@
 				<div class="webtoon_list">
 					<div class = "img_area">
 						<img src="${path}/resources/image/genre/독립일기.PNG" class="image">
-						<p>독립일기</p>
+						<%! int wtIDpa = 1; %>
+						<%= dao.getTitle(wtIDpa) %>
+						<%= dao.getArtist(wtIDpa) %>
+						<%= dao.getDate(wtIDpa) %>
+						<%= dao.getRating(wtIDpa) %>
 					</div>
 					<div class = "img_area">
 						<img src="${path}/resources/image/genre/모죠의 일지.PNG" class="image">

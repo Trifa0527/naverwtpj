@@ -127,28 +127,23 @@
 				
 				<div class="webtoon_list">
 					<%if(genres.equals("omnibus")){%>
-						<%= "<div id=\"content\">" %>
-						<%= "<div id=\"recmvar\"> "%>
-						<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">월요 추천 웹툰</h3>" %>
-						<%= "	<div id=\"recmvarcon\">" %>
-						<%= "		<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"220\" height=\"110\">" %>
+						<%= "<div class=\"img_area\">" %>
+						<%= "		<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"80\" height=\"90\">" %>
 						<%= "		<b style=\"font-size: 13px;\">빨강</b>" %>
 						<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
 						<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-						<%= "	</div>"%>
-						<%= "	<div id=\"recmvarcon\">" %>
-						<%= "		<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"220\" height=\"110\">" %>
-						<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-						<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-						<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-						<%= "	</div>"%>
-						<%= "	<div id=\"recmvarcon\">" %>
-						<%= "		<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"220\" height=\"110\">" %>
-						<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-						<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-						<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-						<%= "	</div>"%>
 						<%= "</div>"%>
+						<%= "<div class=\"img_area\">" %>
+						<%= "	<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"80\" height=\"90\">" %>
+						<%= "	<b style=\"font-size: 13px;\">제목부분</b>" %>
+						<%= "	<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
+						<%= "	<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
+						<%= "</div>"%>
+						<%= "<div class=\"img_area\">" %>
+						<%= "	<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"80\" height=\"90\">" %>
+						<%= "	<b style=\"font-size: 13px;\">제목부분</b>" %>
+						<%= "	<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
+						<%= "	<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
 						<%= "</div>"%>
 					<%}%>
 					
@@ -413,7 +408,7 @@
 					<%}%>
 					
 					<%if(genres.equals("sports")){%>
-						<%= "<div id=\"content\">" %>
+						<%= "<div idd=\"content\">" %>
 						<%= "<div id=\"recmvar\"> "%>
 						<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">월요 추천 웹툰</h3>" %>
 						<%= "	<div id=\"recmvarcon\">" %>

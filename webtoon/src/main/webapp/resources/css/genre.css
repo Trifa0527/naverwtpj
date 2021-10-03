@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/* a 태그 세부 사항 부분 */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* 페이지 전체 부분 */
+.container {
+	position: relative;
+    height: 100%;
+    text-align: left;
+    margin: 0px auto;
+}
+/* 페이지 내용 부분 */
+.content {
+	clear: both;
+    position: relative;
+    width: 980px;
+    height: 1200px;
+    min-height: 100%;
+    padding: 8px 0px 100px;
+    margin: 0px auto 0px auto;
+}
+
+/* 상단 메뉴 부분 */
+.navbar_wrap {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 1.5fr 1.5fr 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+	
+  	border-bottom: 1px solid #D0D0D0;
+  	width: 730px;
+  	margin: 0;
+  	padding: 0;
+}
+
+.nav {
+	font-size: 15px;
+	text-align: center;
+}
+
+.nav_st {
+	font-size: 15px;
+	text-align: center;
+	border-right: 1px solid #D0D0D0;
+}
+
+.on {
+	color : #24D16D;
+	border-bottom: 2px solid #24D16D;
+}
+
+
+/* 에피소드 웹툰 부분 */
+
+/* content 상단 */
+.gr_cnt_box {
+	border-bottom: 1px solid #D0D0D0;
+	margin-top: 25px;
+  	width: 730px;
+}
+
+.gr_cnt {
+	display: inline-block;
+	padding: 5px 5px 3px 5px;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.gr_cnt2 {
+	display: inline-block;
+	padding: 0px 5px 0px 5px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #BEBEBE;
+	border-left: 1px solid #D0D0D0;
+}
+
+.gr_cnt3 {
+	display: inline-block;
+	color: #D0D0D0;
+	padding: 5px 5px 3px 5px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.gr_cnt3_ex {
+	margin-left: 300px;
+	display: inline-block;
+	color: #24D16D;
+	padding: 5px 5px 3px 5px;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+/* 웹툰 목록 부분 */
+.webtoon_list {
+	width: 730px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img_area {
+	border: 1px solid #D0D0D0;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
