@@ -13,9 +13,9 @@ public class DBDAO {
 	
 	public DBDAO() {
 		try {
-			String dbURL ="jdbc:oracle:thin:@localhost:3306:wtpj";
+			String dbURL ="jdbc:mysql://192.168.0.26:3306/PJDB";
 			String user = "root";
-			String pw = "root1234";
+			String pw = "1234";
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			conn = DriverManager.getConnection(dbURL, user, pw);
 		} catch (Exception e) {
