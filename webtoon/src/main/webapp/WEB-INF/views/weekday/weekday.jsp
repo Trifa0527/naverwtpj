@@ -58,7 +58,7 @@
 				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a;display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro3}</p>
 				<p style="font-size: 11px;">${rewtArtist3}</p>
 			</div>
-			</div>
+		</div>
 		<div id="weekdayallwt">
 			<b style="font-size: 17px; font-weight: 500; margin: 2px;">요일별 전체 웹툰</b>
 			<table class="weekdayallwttb">

@@ -87,188 +87,29 @@
 	</ul>
 	</div>
 	
-	<!-- 콘텐츠 -->
-		<%if(days.equals("mon"	)){%>
-			<%= "<div id=\"content\">" %>
-			<%= "<div id=\"recmvar\"> "%>
-			<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">월요 추천 웹툰</h3>" %>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">빨강</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://png.pngtree.com/thumb_back/fw800/background/20200821/pngtree-simple-dark-red-solid-color-wallpaper-image_396557.jpg\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "</div>"%>
-			<%= "</div>"%>
-		<%}%>
-		
-		<%if(days.equals("tue")){%>
-			<%= "<div id=\"content\">" %>
-			<%= "<div id=\"recmvar\"> "%>
-			<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">화요 추천 웹툰</h3>" %>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://colorate.azurewebsites.net/SwatchColor/FFA500\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">주황</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://colorate.azurewebsites.net/SwatchColor/FFA500\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://colorate.azurewebsites.net/SwatchColor/FFA500\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "</div>"%>
-			<%= "</div>"%>
-		<%}%>
 
-		<%if(days.equals("wed")){%>
-			<%= "<div id=\"content\">" %>
-			<%= "<div id=\"recmvar\"> "%>
-			<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">수요 추천 웹툰</h3>" %>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX/3T11HP50AAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">노랑</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX/3T11HP50AAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX/3T11HP50AAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "</div>"%>
-			<%= "</div>"%>
-		<%}%>
+	<div id="content">
+		<div id="recmvar">
+		<h3 style="font-size: 17px; font-weight: 500; margin: 2px;">${weekko}요 추천 웹툰</h3>
+			<div id="recmvarcon">
+				<img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA5MTFfNTAg/MDAxNTk5NzgzNTYzNjY0.f-PVbkC_So4KOCb1q_X1U-VbH1JVSGBDQcfPgugvraMg.1QPPwHBh0MvIVmGYSgWopxNLOqm5cGk0dtbVd7OZ9vMg.JPEG.daffodil1234/IMG_5663.JPG?type=w800" width="220" height="110">
+				<b style="font-size: 13px;">${rewtTitle1}</b>
+				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a;display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro1}</p>
+				<p style="font-size: 11px;">${rewtArtist1}</p>
+			</div>
+			<div id="recmvarcon">
+				<img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA5MTFfNTAg/MDAxNTk5NzgzNTYzNjY0.f-PVbkC_So4KOCb1q_X1U-VbH1JVSGBDQcfPgugvraMg.1QPPwHBh0MvIVmGYSgWopxNLOqm5cGk0dtbVd7OZ9vMg.JPEG.daffodil1234/IMG_5663.JPG?type=w800" width="220" height="110">
+				<b style="font-size: 13px;">${rewtTitle2}</b>
+				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a;display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro2}</p>
+				<p style="font-size: 11px;">${rewtArtist2}</p>
+			</div>
+			<div id="recmvarcon">
+				<img src="https://mblogthumb-phinf.pstatic.net/MjAyMDA5MTFfNTAg/MDAxNTk5NzgzNTYzNjY0.f-PVbkC_So4KOCb1q_X1U-VbH1JVSGBDQcfPgugvraMg.1QPPwHBh0MvIVmGYSgWopxNLOqm5cGk0dtbVd7OZ9vMg.JPEG.daffodil1234/IMG_5663.JPG?type=w800" width="220" height="110">
+				<b style="font-size: 13px;">${rewtTitle3}</b>
+				<p style="font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a;display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro3}</p>
+				<p style="font-size: 11px;">${rewtArtist3}</p>
+			</div>
+		</div>
 		
-		<%if(days.equals("thu")){%>
-			<%= "<div id=\"content\">" %>
-			<%= "<div id=\"recmvar\"> "%>
-			<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">목요 추천 웹툰</h3>" %>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistoryfile%2Ffs11%2F22_tistory_2009_02_20_18_02_499e71a61dece%3Fx-content-disposition%3Dinline\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">초록</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistoryfile%2Ffs11%2F22_tistory_2009_02_20_18_02_499e71a61dece%3Fx-content-disposition%3Dinline\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistoryfile%2	Ffs11%2F22_tistory_2009_02_20_18_02_499e71a61dece%3Fx-content-disposition%3Dinline\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "</div>"%>
-			<%= "</div>"%>
-		<%}%>
-		
-		<%if(days.equals("fri")){%>
-			<%= "<div id=\"content\">" %>
-			<%= "<div id=\"recmvar\"> "%>
-			<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">금요 추천 웹툰</h3>" %>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/A1Z/image/Cb6ya4gvwND6tVS5HwTRnA3u-NY.jpg\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">파랑</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/A1Z/image/Cb6ya4gvwND6tVS5HwTRnA3u-NY.jpg\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/A1Z/image/Cb6ya4gvwND6tVS5HwTRnA3u-NY.jpg\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "</div>"%>
-			<%= "</div>"%>
-		<%}%>
-		
-		<%if(days.equals("sat")){%>
-			<%= "<div id=\"content\">" %>
-			<%= "<div id=\"recmvar\"> "%>
-			<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">토요 추천 웹툰</h3>" %>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://www.analogouscolors.com/image/1080x1920/102b6a.gif\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">진청</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://www.analogouscolors.com/image/1080x1920/102b6a.gif\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 	11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://www.analogouscolors.com/image/1080x1920/102b6a.gif\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "</div>"%>
-			<%= "</div>"%>
-		<%}%>
-		
-		
-		<%if(days.equals("sun")){%>
-			<%= "<div id=\"content\">" %>
-			<%= "<div id=\"recmvar\"> "%>
-			<%= "<h3 style=\"font-size: 17px; font-weight: 500; margin: 2px;\">일요 추천 웹툰</h3>" %>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://t1.daumcdn.net/cfile/blog/2329564B51FBC82738\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">보라</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://t1.daumcdn.net/cfile/blog/2329564B51FBC82738\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "	<div id=\"recmvarcon\">" %>
-			<%= "		<img src=\"https://t1.daumcdn.net/cfile/blog/2329564B51FBC82738\" width=\"220\" height=\"110\">" %>
-			<%= "		<b style=\"font-size: 13px;\">제목부분</b>" %>
-			<%= "		<p style=\"font-size: 13px; margin-top: 2px; margin-bottom: 7px; color: #8a8a8a\">작가/원작자</p>" %>
-			<%= "		<p style=\"font-size: 11px;\">줄거리/작품소개</p>" %>
-			<%= "	</div>"%>
-			<%= "</div>"%>
-			<%= "</div>"%>
-		<%}%>
 </body>
 </html>
