@@ -42,9 +42,13 @@ public class WeekdayController {
 		model.addAttribute("rewtIntro3", rewtIntro3);
 		model.addAttribute("rewtArtist3", rewtArtist3);
 		
+		model.addAttribute("id1", recommandwt1);
+		model.addAttribute("id2", recommandwt2);
+		model.addAttribute("id3", recommandwt3);
+		
 		return "weekday/weekday";
 	}
-
+	
 	@RequestMapping(value = "/weekdayList", method = RequestMethod.GET)
 	public String weekdayList(@RequestParam String week, Model model) {
 		DBDAO dbdao = new DBDAO();
@@ -94,6 +98,9 @@ public class WeekdayController {
 		model.addAttribute("rewtIntro3", rewtIntro3);
 		model.addAttribute("rewtArtist3", rewtArtist3);
 		model.addAttribute("weekko", weekko);
+		model.addAttribute("id1", recommandwt1);
+		model.addAttribute("id2", recommandwt2);
+		model.addAttribute("id3", recommandwt3);
 		return "weekday/weekdayList";
 	}
 }
