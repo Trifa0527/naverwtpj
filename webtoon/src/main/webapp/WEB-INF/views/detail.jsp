@@ -10,11 +10,11 @@
 	<div class="comicinfo">
 		<div class="thumb">
 			<a href="">
-				<img src="resources/img/${id}/1.jpg" title="${title }" alt="${title }" width="125" height="101">
+				<img style="overflow: hidde;max-width: 125px;"src="resources/img/${id}/1.jpg">
 			</a>
 		</div>
 		<div class="detail">
-			<h2>${title }<span class="ico_cut"></span><span class="name">${artist }</span></h2>
+			<h2>${title }</span><span class="name">${artist }</span></h2>
 			<p>${intro }</p>
 			<p class="detail_info"><span class="genre">${jenre }</span><span class="age">${age }</span></p>
 			<ul class="button">

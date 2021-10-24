@@ -78,7 +78,9 @@ li {
 #footer ul li {
     position: relative;
     float: left;
-    padding: 0 8px 0 9px;
+}
+ul li{
+	padding: 0 8px 0 9px;
 }
 
 .first_li {

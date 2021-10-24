@@ -42,24 +42,30 @@
 		<div id="recmvar">
 		<h3 style="font-size: 17px; font-weight: 500; margin: 2px;">이달의 신규 웹툰</h3>
 			<div id="recmvarcon">
-				<img src="resources/img/${id1}/1.jpg" width="220" height="110">
-				<b style="font-size: 13px; ">${rewtTitle1}</b>
-				<p style="font-size: 12px;">${rewtArtist1}</p>
-				<p style="font-size: 12px; margin-top: 2px; color: #8a8a8a;display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro1}</p>
+				<a href="detail?titleId=${id1}"><img src="resources/img/${id1}/1.jpg" width="218" height="120"></a>
+				<a href="detail?titleId=${id1}"><strong style="font-size: 13px;">${rewtTitle1}</strong></a>
+				<br>
+				<a href="detail?titleId=${id1}" style="font-size: 12px; color: #8a8a8a;">${rewtArtist1}</a>
+				<p style="font-size: 12px; margin-top: 5px; display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro1}</p>			
 			</div>
 			<div id="recmvarcon">
-				<img src="resources/img/${id2}/1.jpg" width="220" height="110">
-				<b style="font-size: 13px;">${rewtTitle2}</b>
-				<p style="font-size: 12px;">${rewtArtist2}</p>
-				<p style="font-size: 12px; margin-top: 2px; color: #8a8a8a;display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro2}</p>
+				<a href="detail?titleId=${id2}"><img src="resources/img/${id2}/1.jpg" width="218" height="120"></a>
+				<a href="detail?titleId=${id2}"><strong style="font-size: 13px;">${rewtTitle2}</strong></a>
+				<br>
+				<a href="detail?titleId=${id2}" style="font-size: 12px; color: #8a8a8a;">${rewtArtist2}</a>
+				<p style="font-size: 12px; margin-top: 5px; display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro2}</p>
 			</div>
 			<div id="recmvarcon">
-				<img src="resources/img/${id3}/1.jpg" width="220" height="110">
-				<b style="font-size: 13px;">${rewtTitle3}</b>
-				<p style="font-size: 12px;">${rewtArtist3}</p>
-				<p style="font-size: 12px; margin-top: 2px; color: #8a8a8a;display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro3}</p>
+				<a href="detail?titleId=${id3}"><img src="resources/img/${id3}/1.jpg" width="218" height="120"></a>
+				<a href="detail?titleId=${id3}"><strong style="font-size: 13px;">${rewtTitle3}</strong></a>
+				<br>
+				<a href="detail?titleId=${id3}" style="font-size: 12px; color: #8a8a8a;">${rewtArtist3}</a>
+				<p style="font-size: 12px; margin-top: 5px; display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro3}</p>
 			</div>
 		</div>
+		
+		
+		<!-- 
 		<div id="weekdayallwt">
 			<b style="font-size: 17px; font-weight: 500; margin: 2px;">요일별 전체 웹툰</b>
 			<table class="weekdayallwttb">
@@ -82,6 +88,7 @@
 				</tbody>
 			</table>
 		</div>
+		-->
 	</div>
 </body>
 </html>
