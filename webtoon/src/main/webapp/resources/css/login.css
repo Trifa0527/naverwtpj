@@ -270,12 +270,14 @@ a {
 
 .login_btn {
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 600;
 	width: 100%;
   	color: white;
   	text-align: center;
   	text-decoration: none;
   	display: inline-block;
+  	border: 0;
+    background-color: #03c75a;
 }
 
 /* 찾기, 회원가입 부분 */

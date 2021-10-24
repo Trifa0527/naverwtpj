@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="org.spring.mapper.MemberMapper">
+  	<insert id="insertMember">
+  		insert into wbt_member (id, pw, name, year, month, day, gender, email, phnum) values
+	  		(#{id},#{pw},#{name},#{year},#{month},#{day},#{gender},#{email},#{phnum})
+  	</insert>
+
+	<select id="selectMember" resultType="com.kgitbank.webtoon.model.MemberDTO">
+  		select id,name from wbt_member 
+  			where id=#{id} and pw=#{pw}
+  	</select>
+  </mapper>
