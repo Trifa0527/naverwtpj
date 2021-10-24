@@ -1,0 +1,226 @@
+@charset "UTF-8";
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: nonr;
+}
+
+.age {
+	position: relative;
+	margin-left: 15px;
+}
+
+.age:after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: -8px;
+	width: 1px;
+	height: 9px;
+	background: #c9c9c9;
+}
+
+.blind {
+	display: none;
+}
+
+.button {
+	zoom: 1;
+	margin-top: 11px
+}
+
+.button:after {
+	display: block;
+	clear: both;
+	content: ''
+}
+
+.button li {
+	float: left;
+	position: relative;
+	margin-right: -1px;
+}
+
+.button li .book_maker {
+	padding: 0 8px;
+}
+
+.button li .book_maker span {
+	width: 61px;
+	height: 15px;
+	margin: 8px 0 0 0;
+	background-position: -330px -190px;
+}
+
+.button li .first span {
+	width: 40px;
+	background-position: -60px -690px;
+}
+
+.button li .other span {
+	width: 76px;
+	background-position: -105px -690px;
+}
+
+.button li .book_maker.on span {
+	background-position: -330px -215px
+}
+
+.button>li>a, .button>li .ware_area>a {
+	display: block;
+	width: auto;
+	height: 30px;
+	border: 1px solid #b8b8b8;
+	padding: 0 11px;
+	cursor: pointer;
+}
+
+.button>li>a>span, .button>li .ware_area>a>span, .pre_view span {
+	display: block;
+	height: 11px;
+	margin-top: 10px;
+	background: url(/webtoon/resources/image/title.png) no-repeat 0 0;
+	text-indent: -9999px;
+}
+
+.comicinfo {
+	padding: 30px 0;
+	zoom: 1;
+}
+
+.comicinfo:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.comicinfo .detail>p {
+	overflow: hidden;
+	clear: both;
+	margin: 9px 0 0;
+	line-height: 18px;
+	color: #666;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+.detail {
+	float: left;
+	width: 554 px;
+}
+
+.ico_cut {
+	background-image: url(/webtoon/resources/image/ico.png);
+	background-size: 188px 164px;
+	background-position: 0 -149px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	color: transparent;
+	width: 26px;
+	height: 15px;
+	margin: 1px 0 0 7px;
+}
+
+.likeit_detail .likeit_button {
+	display: inline-block;
+	min-width: 58px;
+	height: 30px;
+	margin: 0;
+	padding: 0 15px;
+	border: 1px solid #b8b8b8;
+	border-color: #b8b8b8;
+	background-color: #fff;
+	text-align: center;
+	zoom: 1;
+	cursor: pointer;
+}
+
+.likeit_detail a {
+	float: none;
+    position: static;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 0;
+    vertical-align: baseline;
+    white-space: normal;
+    list-style: none;
+    font-style: normal;
+    word-spacing: 0;
+    font-family: normal;
+}
+
+.name {
+	display: inline-block;
+	margin: 0 4px 0 7px;
+	font-size: 12px;
+	color: #434343;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+.thumb {
+	float: left;
+	position: relative;
+	margin-right: 15px;
+}
+
+.webtoon .thumb {
+	position: relative;
+	margin-bottom: 3px;
+}
+
+body {
+	font-size: 12px;
+	font-family: Arial, '나눔고딕', NanumGothic, -apple-system,
+		BlinkMacSystemFont, 'Apple SD Gothic Neo', '맑은고딕', MalgunGothic, '돋움',
+		Dotum, Sans-serif;
+	color: #434343;
+}
+
+h2 {
+	display: block;
+	float: left;
+	max-width: 395px;
+	margin: 1px 0 11px -1px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #020202;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	list-style: none;
+}
+
+p {
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+span {
+	margin: 0;
+	padding: 0;
+}
