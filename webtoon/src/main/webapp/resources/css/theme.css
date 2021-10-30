@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+
+/* 서브 메뉴바 부분 */
+.submenu {
+	margin: 0;
+	color : black;
+	font-size: 12px;
+	padding: 0 10px;
+	text-align: left;
+	background : #fafafa;
+    border-top : 1px solid #ededed;;
+    border-bottom : 1px solid #ededed;;
+}
+
+.submenu_wrap {
+	padding: 0;
+	width: 960px;
+	color: black;
+    margin: 0 auto;
+    font-size: 12px;
+    list-style: none;
+    text-align: left;
+    overflow: hidden;
+}
+
+.sub {
+	list-style: none;
+    float: left;
+	margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.sub_a {
+	display: block;
+    height: 36px;
+    line-height: 36px;
+	font-size : 15px;
+	color: #737373;
+  	text-align: center;
+    padding: 0 14px;
+    padding-left: 0;
+  	text-decoration: none;
+  	font-weight: bold;
+}
+
+.sub_on {
+	display: block;
+    height: 36px;
+    line-height: 36px;
+	font-size : 15px;
+	color: black;
+  	text-align: center;
+  	padding: 0 14px;
+    padding-left: 0;
+  	text-decoration: none;
+  	font-weight: bold;
+}
+
+/* 주변 부분 */
+.container {
+	font-size: 12px;
+    color: #434343;
+    text-align: left;
+    clear: both;
+    position: relative;
+    width: 980px;
+    min-height: 100%;
+    padding: 8px 0 100px;
+    margin: 0 auto;
+}
+
+.content {
+	font-size: 12px;
+    color: #434343;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: relative;
+    width: 694px;
+    padding-left: 10px;
+}
+
+/* 페이지 타이틀 부분 */
+.view_type {
+    color: #434343;
+    margin: 22px 0 0;
+    margin-top: 35px;
+    padding: 0;
+    padding-bottom: 8px;
+    font-size: 12px;
+    list-style: none;
+    text-align: right;
+    overflow: hidden;
+    margin-top: 16px;
+    position: relative;
+    border-bottom: 1px solid #eaeaea;	
+}
+
+h2 {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+
+.view_method {
+	list-style: none;
+    float: right;
+	margin: 0;
+	margin-right: -1px;
+	padding: 0;
+    color: black;
+}
+
+.method1 {
+	border: 1px solid #BDBDBD;
+	color: red;
+	line-height: 20px;
+	float: left;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+}
+
+.method2 {
+	border: 1px solid #BDBDBD;
+	color: #6E6E6E;
+	line-height: 20px;
+	float: left;
+	margin-right: 5px;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+}
+
+i {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+
+/* 웹툰 콘텐츠 부분 */
+.webtoon_content {
+	font-size: 12px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.wrap {
+	width: 690px;
+	list-style: none;
+	text-align: left;
+}
+
+.theme {
+	color: red;
+}
+
+h3 {
+	margin-top: 30px;
+}
+
+.webtoon_list {
+    text-align: left;
+    margin: 0;
+    margin-top: 15px;
+    list-style: none;
+    border-bottom: 1px solid #eaeaea;
+    overflow: hidden;
+    padding-left: 1px;
+    zoom: 1;
+    padding-bottom: 15px;
+}
+
+.img_area {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+    width: 225px;
+    margin-bottom: 10px;
+}
+
+.img {
+	float: left;
+	margin-right: 10px;
+	
+}
+
+.text_b {
+	margin-top: 10px;
+	font-size: 13px;
+	float: left;
+}
+
+.text_p1 {
+	font-size: 13px;
+	margin-top: 15px;
+	margin-bottom: 0;
+	color: #8a8a8a;
+}
+
+.text_p2 {
+	font-size: 11px;
+}
