@@ -1,0 +1,79 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
+<c:set var="path" value="${pageContext.request.contextPath}"/>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>관심 웹툰 :: 네이버 웹툰</title>
+		<script src="https://kit.fontawesome.com/054bbd1fc7.js" crossorigin="anonymous"></script>
+		<link href="${path}/resources/css/mypage.css" rel="stylesheet"/>
+	</head>
+	<body>
+		<!-- 헤더 부분 -->
+		<header>
+		</header>
+		
+		<!-- 콘텐츠 부분 -->
+		<div class="container">
+			<div class="content">
+				<div class="submenu_wrap">
+					<ul class="submenu">
+						<li class="sub"><a href="/webtoon/mypage/favorite" class="menu">관심웹툰</a></li>
+						<li class="sub"><a href="bookmark" class="menu_on">책갈피</a></li>
+						<li class="sub"><a href="/webtoon/mypage/myActivity" class="menu">내 작품</a></li>
+						<li class="sub"><a href="/webtoon/mypage/penalty" class="menu">이용제한 내역</a></li>
+					</ul>
+				</div>
+				
+				<div class="wrap">
+					<h3 class="sub_tit">책갈피</h3>
+					
+					<div class="tbl_wrap">
+						<table>
+							<colgroup>
+								<col width="58">
+								<col width="300">
+								<col width="90">
+								<col width="90">
+								<col width="110">
+								<col width="55">
+							</colgroup>
+							<thead>
+								<tr>
+									<th>번호</th>
+									<th>제목</th>
+									<th>회수</th>
+									<th>작가</th>
+									<th>책갈피 날짜</th>
+									<th>선택</th>
+								</tr>
+							</thead>
+							
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td class="td_ex">웹툰제목</td>
+									<td>몇화</td>
+									<td>작가이름</td>
+									<td class="td_ex2">날짜</td>
+									<td><input type="checkbox"></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					
+					<div class="del_btn_wrap">
+						<button class="del_btn"><strong class="x">X</strong>삭제</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 푸터 부분 -->
+		<footer>
+		</footer>
+	</body>
+</html>
