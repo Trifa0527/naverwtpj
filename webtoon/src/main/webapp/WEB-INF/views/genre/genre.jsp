@@ -26,19 +26,19 @@
 				<div class="navbar_wrap">
 				
 				
-					<div class="nav"><a href="genre.jsp?genre=episode" class="on">에피소드</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=omnibus">옴니버스</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=story">스토리</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=daily">일상</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=comic">개그</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=fantasy">판타지</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=action">액션</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=drama">드라마</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=pure">순정</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=sensibility">감성</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=thrill">스릴러</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=historical">시대극</a></div>
-					<div class="nav"><a href="genreList.jsp?genre=sports">스포츠</a></div>
+					<div class="nav"><a href="genre?genre=episode" class="on">에피소드</a></div>
+					<div class="nav"><a href="genreList?genre=omnibus">옴니버스</a></div>
+					<div class="nav"><a href="genreList?genre=story">스토리</a></div>
+					<div class="nav"><a href="genreList?genre=daily">일상</a></div>
+					<div class="nav"><a href="genreList?genre=comic">개그</a></div>
+					<div class="nav"><a href="genreList?genre=fantasy">판타지</a></div>
+					<div class="nav"><a href="genreList?genre=action">액션</a></div>
+					<div class="nav"><a href="genreList?genre=drama">드라마</a></div>
+					<div class="nav"><a href="genreList?genre=pure">순정</a></div>
+					<div class="nav"><a href="genreList?genre=sensibility">감성</a></div>
+					<div class="nav"><a href="genreList?genre=thrill">스릴러</a></div>
+					<div class="nav"><a href="genreList?genre=historical">시대극</a></div>
+					<div class="nav"><a href="genreList?genre=sports">스포츠</a></div>
 				</div>
 				
 				<div class="gr_cnt_box"> 

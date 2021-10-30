@@ -3,19 +3,18 @@ package com.kgitbank.webtoon;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-@RequestMapping("/genre")
 @Controller
 public class GenreController {
 
 	@RequestMapping("/genreHome")
 	public String genre() {
-		System.out.println("genre¿¡¼­ genre ¸Þ¼Òµå°¡ ½ÇÇàµÆ½À´Ï´Ù.");
+		System.out.println("genreï¿½ï¿½ï¿½ï¿½ genre ï¿½Þ¼Òµå°¡ ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½Ï´ï¿½.");
 		return "genre/genre";
 	}
 	
 	@RequestMapping("/genreList")
 	public String genreList(String genre) {
-		System.out.println("genre¿¡¼­ genreList ¸Þ¼Òµå°¡ ½ÇÇàµÆ½À´Ï´Ù.");
+		System.out.println("genreï¿½ï¿½ï¿½ï¿½ genreList ï¿½Þ¼Òµå°¡ ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½Ï´ï¿½.");
 		return "genre/genreList";
 	}
 	

@@ -37,90 +37,90 @@
 				<div class="navbar_wrap">
 				
 				
-					<div class="nav"><a href="genre.jsp?genre=episode">에피소드</a></div>
+					<div class="nav"><a href="genreHome">에피소드</a></div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("omnibus")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=omnibus">옴니버스</a>
+						" href="genreList?genre=omnibus">옴니버스</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("story")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=story">스토리</a>
+						" href="genreList?genre=story">스토리</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("daily")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=daily">일상</a>
+						" href="genreList?genre=daily">일상</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("comic")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=comic">개그</a>
+						" href="genreList?genre=comic">개그</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("fantasy")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=fantasy">판타지</a>
+						" href="genreList?genre=fantasy">판타지</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("action")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=action">액션</a>
+						" href="genreList?genre=action">액션</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("drama")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=drama">드라마</a>
+						" href="genreList?genre=drama">드라마</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("pure")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=pure">순정</a>
+						" href="genreList?genre=pure">순정</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("sensibility")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=sensibility">감성</a>
+						" href="genreList?genre=sensibility">감성</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("thrill")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=thrill">스릴러</a>
+						" href="genreList?genre=thrill">스릴러</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("historical")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=historical">시대극</a>
+						" href="genreList?genre=historical">시대극</a>
 					</div>
 					<div class="nav">
 						<a class="ctetalita
 						<%if(genres.equals("sports")){%>
 						<%= style %> 
 						<% }%>
-						" href="genreList.jsp?genre=sports">스포츠</a>
+						" href="genreList?genre=sports">스포츠</a>
 					</div>
 				</div>
 				

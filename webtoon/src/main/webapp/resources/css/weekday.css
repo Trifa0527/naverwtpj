@@ -1,39 +1,39 @@
 @charset "UTF-8";
 #content{
 	margin-left: 15%;
+	width: 714px;
 }
-#nvar{
-	width:685px;
+.nvar{
+	width:714px;
 	height:40px;
-	margin-left: 15%;
 }
-#recmvar{
+.recmvar{
 	min-height: 250px; 
 	overflow: auto;
 	float: left;
 }
-#recmvarcon{
+.recmvarcon{
 	margin-top: 10px;
 	height: 230px;
 	width: 218px;
 	float:left;
 	margin-right: 20px;
 }
-#recmvarcon{
+.recmvarcon{
 	margin-top: 10px;
 	height: 230px;
 	width: 218px;
 	float:left;
 }
-#recmvarcon a:hover{
+.recmvarcon a:hover{
 	text-decoration: underline;
 }
-#weekdayallwt{
-	float: none;
-}
 .weekdayallwttb{
-	border-collapse: collapse;
-	text-align: center;
+	float: left;
+	width: 714px;
+}
+.weekdayallwttbc{
+	width: 100px;
 }
 .weeldayallwthd{
 	border-top: 1px solid #e5e5e5;

@@ -1,15 +1,18 @@
 package dbdao;
 
-import java.sql.DriverManager;
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.util.ArrayList;
 
 public class DBDAO {
 	
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
+	ResultSetMetaData rsmd =null;
 	
 	public DBDAO() {
 		try {
@@ -213,6 +216,55 @@ public class DBDAO {
 		}
 		return null;
 	}
+	
+	public int[] alignRating(String week){
+		String SQL = "SELECT WTID FROM WT WHERE WTWEEK = ? ORDER BY WTRATING DESC";
+		int[] a = new int[200];
+		int i = 0;
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setString(1, week);
+			rs = pstmt.executeQuery();
+			rsmd=rs.getMetaData();
+			int rowCnt = rsmd.getColumnCount();
+			while(rs.next()) {
+				a [i] = rs.getInt(1);
+				i++;
+				if(i > rowCnt) {
+					break;
+				}
+			}
+			return a;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return a;
+	}
+	
+	public int[] alignRandom(String week){
+		String SQL = "SELECT WTID FROM WT WHERE WTWEEK = ? ORDER BY rand()";
+		int[] a = new int[200];
+		int i = 0;
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setString(1, week);
+			rs = pstmt.executeQuery();
+			rsmd=rs.getMetaData();
+			int rowCnt = rsmd.getColumnCount();
+			while(rs.next()) {
+				a [i] = rs.getInt(1);
+				i++;
+				if(i > rowCnt) {
+					break;
+				}
+			}
+			return a;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return a;
+	}
+	
 }
 
 
