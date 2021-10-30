@@ -25,10 +25,10 @@
 		</header>
 		
 		<div class="navbar_wrap">
-			<div class="nav_ex">
+			<div class="nav">
 				<a href="login">ID 로그인</a>
 			</div>
-			<div class="nav">
+			<div class="nav_ex">
 				<a href="Numlogin">일회용 번호</a>
 			</div>
 			<div class="nav">

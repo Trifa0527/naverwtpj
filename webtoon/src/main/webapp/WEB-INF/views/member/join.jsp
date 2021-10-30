@@ -12,8 +12,9 @@
         <title>네이버 : 회원가입</title>
     </head>
     <body>
-        <!-- 상단 부분 -->
-        <div id="header">
+    
+        <!-- 헤더 부분 -->
+        <div class="logo_wrap">
             <a href="https://www.naver.com/" id="logo">NAVER</a>
         </div>
 
@@ -26,59 +27,54 @@
 	                <div>
 	                    <h3>아이디</h3>
 	                    <span class="box" class="id">
-	                        <input type="text" name="id" id="id" class="inp" maxlength="20">
+	                        <input type="text" name="id" class="inp" maxlength="20">
 	                        <span class="back_email">@naver.com</span>
 	                    </span>
-	                    <span class="error_next_box"></span>
 	                </div>
 	
 	                <!-- 비밀번호 -->
 	                <div>
 	                    <h3>비밀번호</h3>
 	                    <span class="box" class="pw">
-	                        <input type="password" name="pw" id="pswd1" class="inp" maxlength="20">
-	                        <span id="alertTxt">사용불가</span>
+	                        <input type="password" name="pw" class="inp" maxlength="20">
 	                        <img src="${path}/resources/image/member/pw.png" id="pswd1_img1" class="pswdImg">
 	                    </span>
-	                    <span class="error_next_box"></span>
 	                </div>
 	
 	                <!-- 비밀번호 재확인 -->
 	                <div>
 	                    <h3>비밀번호 재확인</h3>
 	                    <span class="box" class="pw_check">
-	                        <input type="password" name="repw" id="pswd2" class="inp" maxlength="20">
+	                        <input type="password" name="repw" class="inp" maxlength="20">
 	                        <img src="${path}/resources/image/member/repw.png" id="pswd2_img1" class="pswdImg">
 	                    </span>
-	                    <span class="error_next_box"></span>
 	                </div>
 	
 	                <!-- 이름 -->
 	                <div>
 	                    <h3>이름</h3>
 	                    <span class="box" class="name">
-	                        <input type="text" name="name" id="name" class="inp" maxlength="20">
+	                        <input type="text" name="name" class="inp" maxlength="25">
 	                    </span>
-	                    <span class="error_next_box"></span>
 	                </div>
 	
 	                <!-- 생년월일 -->
 	                <div>
 	                    <h3>생년월일</h3>
 	
-	                    <div id="bir_wrap">
+	                    <div class="birthday_wrap">
 	                        
 	                        <!-- 년 -->
-	                        <div id="bir_yy">
+	                        <div class="year">
 	                            <span class="box">
-	                                <input type="text" name="year" id="yy" class="inp" maxlength="4" placeholder="년(4자)">
+	                                <input type="text" name="year" class="inp" maxlength="4" placeholder="년(4자)">
 	                            </span>
 	                        </div>
 	
 	                        <!-- 월 -->
-	                        <div id="bir_mm">
+	                        <div class="month">
 	                            <span class="box">
-	                                <select name="month" id="mm" class="sel">
+	                                <select name="month" class="sel">
 	                                    <option>월</option>
 	                                    <option value="01">1</option>
 	                                    <option value="02">2</option>
@@ -97,50 +93,45 @@
 	                        </div>
 	
 	                        <!-- 일 -->
-	                        <div id="bir_dd">
+	                        <div class="day">
 	                            <span class="box">
-	                                <input type="text" name="day" id="dd" class="inp" maxlength="2" placeholder="일">
+	                                <input type="text" name="day" class="inp" maxlength="2" placeholder="일">
 	                            </span>
 	                        </div>
-	
-	                    </div>
-	                    <span class="error_next_box"></span>    
+	                    </div>    
 	                </div>
 	
 	                <!-- 성별 -->
 	                <div>
 	                    <h3>성별</h3>
-	                    <span class="box gender_code">
-	                        <select name="gender" id="gender" class="sel">
+	                    <span class="box">
+	                        <select name="gender" class="sel">
 	                            <option>성별</option>
 	                            <option value="male">남자</option>
 	                            <option value="female">여자</option>
 	                        </select>                            
 	                    </span>
-	                    <span class="error_next_box">필수 정보입니다.</span>
 	                </div>
 	
 	                <!-- 이메일(선택) -->
 	                <div>
 	                    <h3>본인확인 이메일<span class="email_op">(선택)</span></h3>
-	                    <span class="box int_email">
-	                        <input type="text" name="email" id="email" class="inp" maxlength="100" placeholder="선택입력">
+	                    <span class="box">
+	                        <input type="text" name="email" class="inp" maxlength="100" placeholder="선택입력">
 	                    </span>
-	                    <span class="error_next_box">이메일 주소를 다시 확인해주세요.</span>    
 	                </div>
 	
 	                <!-- 전화번호 -->
 	                <div>
 	                    <h3>휴대전화</h3>
-	                    <span class="box int_mobile">
-	                        <input type="tel" name="phnum" id="mobile" class="inp" maxlength="16" placeholder="전화번호 입력">
-	                    </span>
-	                    <span class="error_next_box"></span>    
+	                    <span class="box">
+	                        <input type="tel" name="phnum" class="inp" maxlength="15" placeholder="전화번호 입력">
+	                    </span> 
 	                </div>
 	
 	
 	                <!-- 가입 버튼-->
-	                <div class="btn_area">
+	                <div class="btn_wrap">
 	                    <input class="join_btn" type="submit" value="가입하기">
 	                </div>
 
@@ -148,6 +139,5 @@
 
             </div> 
         </div> 
-    <script src="main.js"></script>
     </body>
 </html>
