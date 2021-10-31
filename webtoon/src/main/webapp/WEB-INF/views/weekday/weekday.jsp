@@ -39,7 +39,7 @@
 			</ul>
 		</div>
 		<div class="recmvar">
-		<h3 style="font-size: 17px; font-weight: 500; margin: 2px;">이달의 신규 웹툰</h3>
+			
 			<div class="recmvarcon">
 				<a href="detail?titleId=${id1}"><img src="resources/img/${id1}/1.jpg" width="218" height="120"></a>
 				<a href="detail?titleId=${id1}"><strong style="font-size: 13px;">${rewtTitle1}</strong></a>
@@ -62,47 +62,41 @@
 				<p style="font-size: 12px; margin-top: 5px; display: inline-block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; white-space: normal; text-align: left; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">${rewtIntro3}</p>
 			</div>
 		</div>
-		
-			<h3 style="font-size: 17px; font-weight: 500; margin: 2px;">요일별 전체 웹툰</h3>
-			<div class="weekdayallwttb">
+			<div>
+			<h3 style="font-size: 17px; font-weight: 500; margin: 2px;">요일별 신규 웹툰</h3>
 				<div class="weekdayallwttbc">
-					<ul>
-						<dl>월요웹툰</dl>
-					</ul>
+					<ul><dl><p class="titp">월요웹툰</p></dl></ul>
 				</div>
+				
 				<div class="weekdayallwttbc">
-					<ul>
-						<dl>화요웹툰</dl>
-					</ul>
+					<ul><dl><p class="titp">화요웹툰</p></dl></ul>
 				</div>
+				
 				<div class="weekdayallwttbc">
-					<ul>
-						<dl>수요웹툰</dl>
-					</ul>
+					<ul><dl><p class="titp">수요웹툰</p></dl></ul>
 				</div>
+				
 				<div class="weekdayallwttbc">
-					<ul>
-						<dl>목요웹툰</dl>
-					</ul>
-				</div>
+					<ul><dl><p class="titp">목요웹툰</p></dl></ul>
+				</div>	
+				
 				<div class="weekdayallwttbc">
-					<ul>
-						<dl>금요웹툰</dl>
-					</ul>
+					<ul><dl><p class="titp">금요웹툰</p></dl></ul>
 				</div>
+				
 				<div class="weekdayallwttbc">
-					<ul>
-						<dl>토요웹툰</dl>
-					</ul>
+					<ul><dl><p class="titp">토요웹툰</p></dl></ul>
 				</div>
+				
 				<div class="weekdayallwttbc">
-					<ul>
-					<dl>일요웹툰</dl>
-					</ul>
+					<ul><dl><p class="titp">일요웹툰</p></dl></ul>
 				</div>
-			
 			</div>
+			
 		</div>
+		
+		
+		<p>body</p>
 	</body>
 	<!-- 
 		<div class="weekdayallwt">

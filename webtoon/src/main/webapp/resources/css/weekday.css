@@ -2,6 +2,7 @@
 #content{
 	margin-left: 15%;
 	width: 714px;
+	float: left
 }
 .nvar{
 	width:714px;
@@ -28,12 +29,18 @@
 .recmvarcon a:hover{
 	text-decoration: underline;
 }
-.weekdayallwttb{
-	float: left;
-	width: 714px;
+.titp{
+	font-weight: 800;
+	font-size: 13px;
+	margin: 0px;
+	color: #929292;
+	
 }
 .weekdayallwttbc{
 	width: 100px;
+	float: left;
+	border-top: 1px solid #e5e5e5;
+	text-align: center;
 }
 .weeldayallwthd{
 	border-top: 1px solid #e5e5e5;

@@ -249,22 +249,56 @@ public class DBDAO {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setString(1, week);
 			rs = pstmt.executeQuery();
-			rsmd=rs.getMetaData();
-			int rowCnt = rsmd.getColumnCount();
+//			rsmd=rs.getMetaData();
+//			int rowCnt = rsmd.getColumnCount();
 			while(rs.next()) {
 				a [i] = rs.getInt(1);
 				i++;
-				if(i > rowCnt) {
-					break;
+//				if(i > rowCnt) {
+//					break;
+//				}
+			}
+			return a;
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	
+	public String[][] getwtepiinfo(int wtIDpa){
+		String SQL = "SELECT * FROM wt LEFT OUTER JOIN  wtepisode ON wtepisode.wtid = wt.wtid WHERE wt.wtid=?";
+		String [][] a = new String[14][];
+		int i = 0, ii = 0;
+		try {
+			PreparedStatement pstmt = conn.prepareStatement(SQL);
+			pstmt.setInt(1, wtIDpa);
+			rs = pstmt.executeQuery();
+			while(rs.next()) {
+				a [i][ii] = rs.getString(1);
+				i++;
+				if(i == 14) {
+					ii += 1;
+					i = 0;
 				}
 			}
 			return a;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return a;
+		return null;
 	}
 	
-}
+	public String updatewts() {
+		String SQL = "SELECT WTID FROM WT WHERE WTWEEK = ?";
+		String SQL2 = "INSERT INTO wtepisode (wtetitle, wterating, wtedate, wtid) VALUES( ?, ?, ?, ?);";
+		try {
+			
+			return "s";
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return "f";
+	}
+}//SELECT * FROM wt LEFT OUTER JOIN  wtepisode ON wtepisode.wtid = wt.wtid WHERE wt.wtid=756790\G;
 
 
