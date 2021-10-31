@@ -38,8 +38,9 @@
 				</li>
 			</ul>
 		</div>
+		
 		<div class="recmvar">
-			
+			<h3 style="font-size: 17px; font-weight: 500; margin: 2px;">이달의 신규 웹툰</h3>
 			<div class="recmvarcon">
 				<a href="detail?titleId=${id1}"><img src="resources/img/${id1}/1.jpg" width="218" height="120"></a>
 				<a href="detail?titleId=${id1}"><strong style="font-size: 13px;">${rewtTitle1}</strong></a>

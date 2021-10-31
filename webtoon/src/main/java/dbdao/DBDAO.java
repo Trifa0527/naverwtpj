@@ -16,9 +16,9 @@ public class DBDAO {
 	
 	public DBDAO() {
 		try {
-			String dbURL ="jdbc:mysql://192.168.0.26:3306/PJDB";
-			String user = "root";
-			String pw = "1234";
+			String dbURL ="jdbc:mysql://wtpj1.cy1n2rtjhrmk.ap-northeast-2.rds.amazonaws.com:3306/pjdb?serverTimezone=UTC";
+			String user = "admin";
+			String pw = "12345678";
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection(dbURL, user, pw);
 		} catch (Exception e) {
