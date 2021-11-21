@@ -1,2 +1,2 @@
-# 2
-naver webtoon project
+# [팀프로젝트] 네이버 웹툰 프로젝트
+제작 기간 2021
